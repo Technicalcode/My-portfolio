@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="profile-pic.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>HeY, I'm <span> virat_tech <br> _nicalcoder</span> <br> From Uttarakhand</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+       <!--------- About ----------->
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile-pic (1).png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-titles">About Me</h1>
+                        <p>Hello <br> I am Frontend Developer with 2 years of Experience in web Development
+                           utilizing modern web technologies such as ReactJs, Javascript, Html /Css, as well
+                           as an understanding of optimization techniques and user experience principles.
+                          I learned Frontend IN 2022.
+                           since then I have been UI/UX building. I have also done an internship.
+                           My Experience has been very well</p>
+                           <div class="tab-titles">
+                            <p class="tablinks action-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                            <p class="tablinks" onclick="opentab('education')">Education</p>
+                          </div>
+                          <div class="tabcontents active-tab" id="Skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+
+                                
+                            </ul>
+                          </div>
+                          <div class="tabcontents" id="experience">
+                            <ul>
+                                <li><span>2024 - Current</span><br>UI/UX Design Training at Doon Institute</li>
+                                <li><span>2023 - 2024</span><br>>UI/UX Design Executive at Coin Digital LtD</li>
+                                <li><span>2022 - 2023</span><br>Internship at BenchMark </li>
+                            </ul>
+                          </div>
+                          <div class="tabcontents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>UI/UX Design Training at Doon Institute</li>
+                                <li><span>2023</span><br>BCA from DIMR UK</li>
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+
+
+
+
+
+
+      <!-------------services------------>
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Fully compatible and user-friendly dynamic websites
+                       to perform the user’s requirements. <br>
+                       Service
+                       Web Design and Development
+                       At Astream, our Web Design and Development services
+                       are crafted to transform your online presence into a captivating
+                       and high-performance platform. We understand that your website is
+                       the digital face of your business, and we are committed to creating
+                       a unique and user-centric experience that leaves a lasting impression
+                       on your visitors.
+                      </p>
+                      <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>The top class of maintenance of websites to ensure the availability of 24/7.
+                      </p>
+                      <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Designing smooth-running applications with the latest features for every medium.
+                       App design is an ongoing process of creating user experience (UX) and user interface
+                      (UI) elements for your application. The first step in the mobile app design process is
+                       to determine the goal of the application and how it aligns with the needs of your target audience.
+                      </p>
+                      <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ----- portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Social Media web design</h3>
+                    <p>Contact us for creative web design and responsive
+                       website creative features from Html CSS and JS unique web</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Music App design</h3>
+                    <p>Contact us for creative web design and responsive
+                        website creative features from Html CSS and JS unique web</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>online shopping web design</h3>
+                    <p>Contact us for creative web design and responsive
+                        website creative features from Html CSS and JS unique web</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+<!---------- contact ----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-titles">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> viratbadriwaldancer@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 6398393487</p>
+                <div class="social-icons">
+                    <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/virat_tech_nicalcoder?igsh=MWJndnZqcDdoN29yMg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d4ad12b0-16a6-4ac2-bb30-58d45e63666b">
+                <input type="text" name="Name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Your email" required>
+                <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    <div class="copyright">
+            <p>Hello you watch my web please <i class="fa-solid fa-heart"></i> contact me for design web <br> <span> I am Frontend Developer</span> </p>
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-------------- Javascript ------------>
+<script>
+    
+    var tablinks = document.getElementsByClassName("tablinks");
+    var tabcontents = document.getElementsByClassName("tabcontents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        
+    }
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function showMenu(){
+            sidemenu.style.right = "0";
+        }
+        function hideMenu(){
+            sidemenu.style.right = "-200px";
+        }
+        
+
+        
+
+
+</script>
+              
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+ 
